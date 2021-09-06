@@ -112,6 +112,9 @@ main {
 .form-flex__mic-button {
   border: none;
 }
+.form-flex__input:focus {
+  outline: none;
+}
 .search-buttons__item {
   border: none;
   cursor: pointer;
