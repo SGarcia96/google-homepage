@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-
     <title>Google</title>
   </head>
   <body>
@@ -19,7 +18,12 @@
             <a href="#"><span class="material-icons md-48">apps</span></a>
           </li>
           <li class="nav__link">
-            <a class="nav__link__round-avatar" target="_blank" href="https://github.com/SGarcia96">
+            <a
+              class="nav__link__round-avatar"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/SGarcia96"
+            >
               <img class="avatar" src="images/avatar.jpg" />
             </a>
           </li>
@@ -34,10 +38,13 @@
       <form class="form-flex">
         <span class="material-icons md-48">search</span>
         <input class="form-flex__input" type="text" />
+        <button class="form-flex__mic-button">
+          <img src="images/mic.png" alt="google microphone button" />
+        </button>
       </form>
       <div class="search-buttons">
-        <button>Google search</button>
-        <button>I´m Feeling Lucky</button>
+        <button class="search-buttons__item">Google search</button>
+        <button class="search-buttons__item">I´m Feeling Lucky</button>
       </div>
     </main>
 
