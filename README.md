@@ -5,7 +5,8 @@ A Google Homepage Clone web using HTML, CSS and vanilla JavaScript
 
 ## How to run
 
-clone the project `git clone https://github.com/SGarcia96/google-homepage.git`
+- clone the project `git clone https://github.com/SGarcia96/google-homepage.git`
+- open index.html on browser
 
 ## Demo 
 
