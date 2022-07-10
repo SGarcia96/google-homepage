@@ -1,7 +1,7 @@
 # Google Homepage Clone
 
 ## Overview
-A Google Homepage Clone web using HTML, CSS and vanilla JavaScript
+A Google Homepage Clone web using HTML and CSS
 
 ## How to run
 
